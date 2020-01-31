@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(230, 214, 235);
+}
+  h1 {
+    text-align: center;
+    color: rgba(182, 23, 129, 0.76);
+    font-family: Lucida, sans-serif;
+    font-size: 300%;
+  }
+  h2 {
+    text-align: center;
+    color: rgba(182, 23, 129, 0.76);
+    font-family: Georgia, sans-serif;
+    font-size: 100%;
+  }
+  h3 {
+    text-align: center;
+    color: rgba(182, 23, 129, 0.76);
+    font-family: Georgia, sans-serif;
+    font-size: 100%;
+  }
+  p {
+    text-align: left;
+    color: rgb(9, 2, 12);
+    font-family: Lucida, sans-serif;
+    font-size: 100%;
+  }
