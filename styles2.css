@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffcccc
+}
+  h1 {
+    text-align: center;
+    color: rgba(0,0,0);
+    font-family: 'Pacifico', sans-serif;
+    font-size: 300%;
+  }
+  .about {
+    text-align: center;
+    color: rgba(0,0,0);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 200%;
+  }
+  h2 {
+    text-align: center;
+    color: rgba(151,125,176);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100%;
+  }
+  h3 {
+    text-align: center;
+    color: rgba(86,85,86);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100%;
+  }
+
+  h4 {
+    text-align: center;
+    color: rgba(0,0,0);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 150%;
+  }
+  .role {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+  }
+  img {
+    background:transparent; 
+  }
+
+  a:link {
+    text-align: left;
+    color: rgba(0,0,0);
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    font-size: 100%;
+  }
+  a:visited {
+    text-align: left;
+    color: rgba(0,0,0);
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    font-size: 100%;
+  }
+
+  p {
+    color: rgb(0,0,0);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100%;
+  }
+
+  
+li, a, button{
+    font-family: "Quicksand", sans-serif;
+    font-weight:500;
+    font-size: 16px;
+    color: rbga(0,0,0);
+    text-decoration:none
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor:pointer
+  }
+.nav_links{
+    list-style: none;
+  }
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+  
+  }
+  
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+  
+  
+.nav_links li a hover {
+    color: #000
+}
+  
+button{
+    padding: 9px 25px;
+    background-color: rbga(0,0,0);
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s 
+}
+
+.contained{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60em;
+}
+
+.row ::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.imsize{
+  width: 100%;
+}
+
+.crop {
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.crop img {
+  width: 400px;
+  height: 300px;
+  margin: -75px 0 0 -100px;
+}
+
+.smallbox{
+  width: 300px;
+  border: 15px solid white;
+  padding: 50px;
+  margin: 20px; 
+}
+
+label{
+  font-family:'Quicksand', sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.central{
+  text-align: center;
+}
+.icspa{
+  display: inline-block;
+  margin: 5px 20px;
+  padding: 10px;
+}
+
+.smallbox{
+  width: 500px;
+  border: 15px solid white;
+  padding: 50px;
+  margin: 20px; 
+}
+
+.leung{
+  margin: 10px
+}
